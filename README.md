@@ -1,5 +1,7 @@
 # Jouele for Wordpress
 
+Available from the [Wordpress.org](http://wordpress.org/plugins/wp-jouele).
+
 Insert audio files with a great Jouele player (credits to Ilya Birman).
 
 For now it only loads the Jouele player and attaches it to all links with `.jouele` class.
