@@ -30,3 +30,25 @@ function load_static() {
 add_action( 'init', 'load_static' );
 
 
+add_shortcode( 'wp-jouele', 'jouele_link' );
+function jouele_link( $atts, $content = null ) {
+    $html = trim($content);
+    if ($html != null || $html != "") {
+    	// find 'class' in the first a tag
+    	$aEnd = strpos($html, '>');
+
+    	$classStart = strpos($html, 'class=');
+    	if ($classStart != false 
+    		&& $classStart < $aEnd) {
+    		$html = substr($html, 0, $classStart + 7) . 'jouele ' . substr($html, $classStart + 7);
+    	} else {
+    		$html = substr($html, 0, $aEnd) . ' class="jouele"' . substr($html, $aEnd);
+    	}
+
+    	return $html;
+    } else {
+    	return $html;
+    }
+
+}
+
