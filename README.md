@@ -4,10 +4,12 @@ Available from the [Wordpress.org](http://wordpress.org/plugins/wp-jouele).
 
 Insert audio files with a great Jouele player (credits to Ilya Birman).
 
-For now it only loads the Jouele player and attaches it to all links with `.jouele` class.
+## Features
+- Loads the Jouele player and attaches it to all links with `.jouele` class.
+- `[wp-jouele]` shortcode for the links to mediafiles
+- A button in the editor to add shortcode
 
-Now this plugin uses [fresh Jouele](https://github.com/ilyabirman/Jouele).
-
+## Demo
 ![Demo of the Jouele in Wordpress](screenshot-1.png)
 
 
