@@ -5,6 +5,7 @@
 /*
 Plugin Name: Jouele for Wordpress
 Plugin URI: https://github.com/beshur/wp-jouele
+Version: 0.1.6
 Description: Insert audio files with a great Jouele player. Jouele player by Ilya Birman (https://github.com/ilyabirman/Jouele).
 Author: alexbuznik
 Author URI: http://buznik.com/
@@ -33,7 +34,7 @@ function wp_jouele_link( $atts, $content = null ) {
     	$aEnd = strpos($html, '>');
 
     	$classStart = strpos($html, 'class=');
-    	if ($classStart != false 
+    	if ($classStart != false
     		&& $classStart < $aEnd) {
     		$html = substr($html, 0, $classStart + 7) . 'jouele ' . substr($html, $classStart + 7);
     	} else {

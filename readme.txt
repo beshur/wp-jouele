@@ -1,10 +1,10 @@
 === wp-jouele ===
 Contributors: alexbuznik
-Version: 0.1.5
+Version: 0.1.6
 Tags: music,audio,jquery,media,player
 Requires at least: 4.0.0
 Tested up to: 4.3.1
-Stable tag: 0.1.5
+Stable tag: 0.1.6
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
