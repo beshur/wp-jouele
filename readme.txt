@@ -1,10 +1,10 @@
 === wp-jouele ===
 Contributors: alexbuznik
-Version: 0.1.6
+Version: 0.2.0
 Tags: music,audio,jquery,media,player
 Requires at least: 4.0.0
-Tested up to: 4.3.1
-Stable tag: 0.1.6
+Tested up to: 4.9.4
+Stable tag: 0.2.0
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,6 +25,8 @@ or select a file and insert it as a 'Link to media'. Then (2.) select the link
 and click the wp-jouele button (3.). That`s it.
 
 == Changelog ==
+= 0.2.0 =
+Upgraded Jouele to 3.0.4
 = 0.1.4 =
 Fixing missing files in repository
 = 0.1.2 =
